@@ -4,4 +4,4 @@ Miniature lavatory with servo controlled door. The servo and light are controlle
 
 Now this miniature 3D printed model is on display on a miniture model of this train station anno 1950, on the [Modelspoorclub Alkmaar](http://www.modelspoorclubalkmaar.nl/) (Model rail club Alkmaaar).
 
-![Lavatory](images/Lavatory.png)
+![Lavatory](3D/images/Lavatory.png)
