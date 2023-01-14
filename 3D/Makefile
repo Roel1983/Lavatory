@@ -43,7 +43,7 @@ $(PARTSDIR)/%.stl: %.scad | $(PARTSDIR) $(DEPDIR) $(DEPDIR)/%.d
 
 $(IMAGESDIR)/%.png: %.scad
 $(IMAGESDIR)/%.png: %.scad | $(IMAGESDIR) $(DEPDIR) $(DEPDIR)/%.d
-	$(OPENSCAD) -d $(DEPDIR)/$*.d -o $(IMAGESDIR)/$*.png $*.scad
+	$(OPENSCAD) -d $(DEPDIR)/$*.d -DRENDER_IMAGE=true -o $(IMAGESDIR)/$*.png $*.scad
 
 $(DEPDIR) $(PARTSDIR) $(IMAGESDIR): ; @mkdir -p $@
 

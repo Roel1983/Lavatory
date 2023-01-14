@@ -3,7 +3,8 @@ include <Constants.inc>
 
 use <AlignedCube.scad>
 
-$fn= $preview ? 16 : 128;
+RENDER_IMAGE = false;
+$fn= $preview && !RENDER_IMAGE ? 16 : 128;
 
 Roof(
     is_printable = true

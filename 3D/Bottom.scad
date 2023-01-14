@@ -3,6 +3,8 @@ include <Config.inc>
 use <AlignedCube.scad>
 use <ColorIf.scad>
 
+$fn=32;
+
 Bottom();
 
 module Bottom() {
